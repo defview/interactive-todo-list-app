@@ -1,0 +1,17 @@
+@import url('https://fonts.cdnfonts.com/css/chirp-2');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-chirp bg-[#E5E4E2] text-[#301934];
+    }
+}
+
+.heading {
+    font-size: clamp(1.5rem 2vw 2.5rem);
+    font-weight: 800;
+}
+
